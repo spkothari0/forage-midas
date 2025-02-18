@@ -13,7 +13,7 @@ spring:
     producer:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 server:
-  port: 8080
+  port: 33400
 
 general:
   kafka-topic: "transaction"
